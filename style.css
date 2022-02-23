@@ -1,0 +1,71 @@
+header{
+    background: darkslategrey;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.photo{
+    width: 150px;
+    border-radius: 100%;
+}
+
+section{
+    width: 70%;
+    margin: 0 auto;
+}
+
+article{
+    padding: 20px 0;
+    border-bottom: 1px dotted darkgrey;
+}
+
+article h2{
+    float: left;
+    border-bottom: 2px solid cadetblue;
+    padding-bottom: 5px;
+    line-height: 1.3em;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+
+}
+
+article p{
+    margin-left: 20%;
+}
+
+article p, article ul{
+    margin-left: 25%;
+    font-family: Verdana, Geneva, Tahoma, sans-;
+    color: darkslategrey;
+    line-height: 1.3em;
+    margin-bottom: 1.3em;
+}
+
+article ul li{
+    margin-left: 15px;
+    list-style: square;
+}
+
+footer{
+    margin-top: 2em;
+    padding: 1.5em 0;
+    text-align: center;
+    width: 100%;
+    background-color: darkslategrey;
+    color: azure;
+}
+
+footer a:link, footer a:visited{
+    color: orange;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: greenyellow;
+    
+}
